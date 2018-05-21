@@ -28,4 +28,5 @@ function draw() {
   {
   	y = y - 2;
  }
+}
   
