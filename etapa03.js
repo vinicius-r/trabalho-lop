@@ -29,6 +29,9 @@ function draw() {
   	y = y - 3;
  }
   if ( x > width ) {
-    x = random(-50,-50); // gera um valor aleatório entre -500 e -50 (min e max)
+    x = random(-50,-50); 
+  }
+  if( y > width){
+    y=random(-50,-50);
   }
 }
